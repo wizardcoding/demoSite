@@ -123,6 +123,11 @@ body {
     width: 190px;
 }
 
+.clubLogoTrip > img {
+  height: 54%;
+  width: 77%;
+}
+
 .imageClubPhoto > img {
     float: right;
     height: 300px;

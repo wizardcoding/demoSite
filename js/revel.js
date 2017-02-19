@@ -206,6 +206,70 @@ $( document ).ready(function() {
         $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/cancunTour.html");
     });
 
+    $("#TourCartagena").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/cartagenaTour.html");
+    });
+
+    $("#TourHuatulco").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/huatulcoTour.html");
+    });
+
+    $("#TourLosCabos").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/losCabosTour.html");
+    });
+
+    $("#TourOrlando").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/orlandoTour.html");
+    });
+
+    $("#TourPeru").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/peruTour.html");
+    });
+
+    $("#TourPuntaCana").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/puntaCanaTour.html");
+    });
+
+    $("#TourVallarta").on("click", function() {
+        $("#mainContent").hide();
+        $("#CancunSubMenu").hide("fade");
+        $("#PlayaDelCarmenSubMenu").hide("fade");
+        $("#PuertoVallartaSubmenu").hide("fade");
+        $("#ToursSubmenu").delay(1000).show("fade", 1000);
+        $("#mainContent").delay(2500).show("fade", 1000).load( "content/liveTours/vallartaTour.html");
+    });
+
+
     $("#TourEuropa").on("click", function() {
         $("#mainContent").hide();
         $("#CancunSubMenu").hide("fade");
