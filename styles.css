@@ -1,0 +1,220 @@
+body {
+    background-color: #322859;
+}
+
+.wrapper {
+    color: white;
+}
+
+.image {
+    height: 462px;
+    width: 631px;
+}
+
+.imageToggle {
+    height: 100px;
+    width: 152px;
+}
+
+.toggelDismis {
+    display: none;
+}
+
+.buttonPosition {
+    clear: both;
+}
+
+.mainMenu {
+    display: inline-flex;
+    list-style: outside none none;
+}
+
+.mainMenu > li {
+    margin-right: 2%;
+}
+
+.menuContainer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: none;
+}
+
+.toggleShow {
+    display: block;
+}
+
+#mainContent {
+    width: 65%;
+}
+
+.brandLogo {
+    float: left;
+    width: 120px;
+}
+
+.brandLogo > img {
+    height: 100px;
+    width: 100px;
+}
+
+.colorFrame {
+    background-color: #AC2F91;
+    float: right;
+    height: 87px;
+    width: 52px;
+}
+
+.contentHeader {
+    font-size: 25px;
+    width: 240px;
+    padding-top: 66px;
+}
+
+.serviceTitle {
+    color: #AC2F91;
+    font-size: 58px;
+    margin-top: 40px;
+    text-align: center;
+    width: 483px;
+}
+
+.mainServiceContent {
+    margin: 25px;
+}
+
+.mainInformationService {
+    width: 620px;
+}
+
+.footer {
+    float: left;
+    font-size: 10px;
+    margin-top: 33px;
+    text-align: center;
+    width: 100%;
+}
+
+.contactLogo {
+    width: 320px;
+}
+
+.contactLogo > img {
+    height: 220px;
+    width: 330px;
+}
+
+.contactContent {
+    text-align: center;
+    width: 300px;
+}
+
+.clubInformation {
+    float: left;
+    width: 50%;
+}
+
+.clubLogo {
+    width: 240px;
+}
+
+.clubLogo > img {
+    height: 170px;
+    width: 190px;
+}
+
+.imageClubPhoto > img {
+    float: right;
+    height: 300px;
+    width: 340px;
+}
+
+.jcarousel-wrapper {
+    border: 3px solid #AF3091;
+    border-radius: 5px;
+    height: 38%;
+    margin: 20px auto;
+    position: relative;
+    width: 42%;
+    float: right;
+}
+.jcarousel-wrapper .photo-credits {
+    bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    opacity: 0.66;
+    position: absolute;
+    right: 15px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+}
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+.jcarousel {
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 20000em;
+}
+.jcarousel li {
+    float: left;
+    width: 925px;
+}
+.jcarousel-control-prev, .jcarousel-control-next {
+    background: #286090 none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #fff;
+    font: 24px/27px Arial,sans-serif;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 0 0 1px #000;
+    top: 48%;
+    width: 30px;
+    line-height: 32px;
+}
+.jcarousel-control-prev {
+    left: -50px;
+}
+.jcarousel-control-next {
+    right: -50px;
+}
+.jcarousel-control-prev:hover span, .jcarousel-control-next:hover span {
+    display: block;
+    text-decoration: none;
+}
+.jcarousel-control-prev.inactive, .jcarousel-control-next.inactive {
+    cursor: default;
+    opacity: 0.5;
+}
+.jcarousel-pagination {
+    bottom: 0;
+    left: 15px;
+    position: absolute;
+}
+.jcarousel-pagination a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 14px;
+    color: #4e443c;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    margin-right: 2px;
+    min-width: 14px;
+    opacity: 0.75;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+.jcarousel-pagination a.active {
+    background: #4e443c none repeat scroll 0 0;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
