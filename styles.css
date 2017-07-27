@@ -45,7 +45,7 @@ body {
 }
 
 #mainContent {
-    width: 65%;
+    width: 146%;
 }
 
 .brandLogo {
@@ -125,7 +125,7 @@ body {
 
 .clubLogoTrip > img {
   height: 54%;
-  width: 77%;
+  width: 100%;
 }
 
 .imageClubPhoto > img {
